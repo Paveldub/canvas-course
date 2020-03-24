@@ -1,11 +1,19 @@
 // definition
-let canvas = document.getElementById('hello-world-canvas')
-let context = canvas.getContext('2d')
+window.addEventListener('DOMContentLoaded', () => {
+  let canvas = document.getElementById('hello-world-canvas')
+  let context = canvas.getContext('2d')
 
-// // draw rectangle
-// context.fillStyle = 'blue'
-// context.fillRect(10, 30, 40, 30)
+  // draw lines
 
-// // yellow rectangle
-// context.fillStyle = 'yellow'
-// context.fillRect(50, 80, 40, 30)
+  //   context.beginPath() //reset the context state
+  //   context.strokeStyle = 'red'
+  //   context.lineWidth = 3 // thickness of the line
+  //   context.moveTo(30, 70) // moveTo(x, y), starting point of the line
+  //   context.lineTo(130, 70) //lineTo(x, y), ending point of the line
+  //   context.stroke() // draws the line
+
+  // draw rectangle
+
+  // context.fillStyle = 'blue'
+  // context.fillRect(10, 30, 40, 30)
+})
