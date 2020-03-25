@@ -6,10 +6,9 @@
 //   context.beginPath()
 //   context.strokeStyle = 'red'
 //   context.lineWidth = 5
-//   context.moveTo(50, 50)
-//   context.quadraticCurveTo(200, 0, 0, 100)
+//   context.moveTo(100, 50)
+//   context.bezierCurveTo(75, 75, 125, 215, 25, 75)
 //   context.stroke()
 // })
 
-// // function gets 4 params quadraticCurveTo
-// // context.quadraticCurveTo(controlX, controlY, endX, endY)
+// // context.bezierCurveTo(controlX1, controlY1, controlX2, controlY2, endX, endY);
