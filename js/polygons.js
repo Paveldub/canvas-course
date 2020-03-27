@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let context = canvas.getContext('2d')
 
   // Polygon variables
-  let sides = 5
+  let sides = 6
   let radius = 100
   let centerX = 400
   let centerY = 300
