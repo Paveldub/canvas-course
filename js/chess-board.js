@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let canvas = document.getElementById('hello-world-canvas')
   let context = canvas.getContext('2d')
 
-  //colors
+  // colors
   const lightCellColor = '#ddb180'
   const darkCellColor = '#7c330c'
 
