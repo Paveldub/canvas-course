@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			cell %= 4;
 
 			// draw
-
 			drawTileCell(cell);
 		}
 
