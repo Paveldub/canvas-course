@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	// addColorStop(stop, color)
 
 	/*
-
     LINEAR Gradient
 
 	let linearGradient = context.createLinearGradient(240, 40, 420, 420);
