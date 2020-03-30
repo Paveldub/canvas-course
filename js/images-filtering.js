@@ -35,5 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 
 		context.putImageData(imageData, 50, 50);
+
+		// save canvas image as data URL (default: PNG)
+		let dataUrl = canvas.toDataURL();
+
+		document.getElementById('canvasImg').src = dataUrl;
 	};
 });
