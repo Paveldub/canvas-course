@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	context.translate(300, 200);
 
 	// translated
-	context.fillStyle = 'blue';
+	context.fillStyle = 'red';
 	context.fillRect(50, 50, 160, 160);
 	context.fill();
 });
