@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	let animationStart = new Date();
 
 	// Move specifications
-	let moveAmount = 5;
+	let moveAmount = 15;
 	let moveX = 100;
 
 	function animationLoop() {
